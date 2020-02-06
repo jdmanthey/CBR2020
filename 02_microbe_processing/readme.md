@@ -55,6 +55,8 @@ and set that directory as your working directory in RStudio.
     library(plyr)
     library(picante)
 
+Are there any packages that say they do not exist? Try installing them with the install.packages command.
+
 ### 5. Set up analysis
 
 The data we have today is a subset of the full data collected from the birds. We have 5000 paired-end Illumina sequencing
