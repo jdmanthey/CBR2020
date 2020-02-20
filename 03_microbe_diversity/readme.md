@@ -97,10 +97,6 @@ Sample a random family:
 
 	  sample(sort(get_taxa_unique(ps, "Family")), 1)
 
-Plot the composition (by family)
-
-    plot_bar(ps, x="Sample.ID", fill="Family") + facet_wrap(~Location, scales="free_x")
-
 Plot the composition (by phylum)
 
     plot_bar(ps, x="Sample.ID", fill="Phylum") + facet_wrap(~Location, scales="free_x")
