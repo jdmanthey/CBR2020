@@ -107,6 +107,7 @@ with the double rotated tree with both of the pruned trees. Do you get the resul
 ### 5. Let's work with a real phylogeny.
     
 Let's read in the _Certhia_ tree and plot it.
+    
     x <- read.nexus("certhia_summed.tre")
     plot(x, cex=0.7)
 
